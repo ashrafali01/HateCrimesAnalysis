@@ -1,3 +1,4 @@
+#This is kafka producer which will ingest data in kafka topic 
 import pandas as pd
 from confluent_kafka import Producer
 import json
@@ -8,12 +9,12 @@ conf = {
     'bootstrap.servers': 'pkc-921jm.us-east-2.aws.confluent.cloud:9092',
     'security.protocol': 'SASL_SSL',
     'sasl.mechanism': 'PLAIN',
-    'sasl.username': 'BACVG7HHYVUKUNP2',
-    'sasl.password': 'stXNfGbHdqW6yjZMQ0fDb8XAqJqX1FFzRt3Uvc+su6iWA6BcDTfbvMk69DoSrrTK',
+    'sasl.username': 'YourAccessKey',
+    'sasl.password': 'YourSecretKey',
 }
 
 producer = Producer(conf)
-topic = 'hatecrimesconsumer'
+topic = 'hatecrimesconsumer'  # topic name
 
 # Read CSV
 df = pd.read_csv('C:\Dirilis2025\PySpark Practice\HateCrimesAnalytics\Hate_Crimes_2017-2025.csv')
