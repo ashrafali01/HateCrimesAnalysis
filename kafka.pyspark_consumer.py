@@ -58,5 +58,5 @@ query = df_parsed.writeStream \
     .option("checkpointLocation", "s3a://hatecrimes/checkpoints/TransformedData/") \
     .option("path", "s3a://hatecrimes/TransformedData/") \
     .start()
-
+# yet some changes need to be done, some transformation here 
 query.awaitTermination()
