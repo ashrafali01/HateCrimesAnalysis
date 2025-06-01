@@ -1,4 +1,4 @@
-Hate Crimes Analysis 📊🔍
+#Hate Crimes Analysis 📊🔍
 
 
 
@@ -32,23 +32,16 @@ Python 3.8+
 📦 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/ashrafali01/HateCrimesAnalysis.git
 cd HateCrimesAnalysis
 (Optional) Create a virtual environment:
 
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Set up Confluent Kafka (free tier or local) and configure producer topics.
 
