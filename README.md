@@ -1,5 +1,4 @@
-#Hate Crimes Analysis 📊🔍
-
+Hate Crimes Analysis 📊🔍
 
 
 Overview
