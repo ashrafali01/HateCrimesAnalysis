@@ -17,7 +17,7 @@ producer = Producer(conf)
 topic = 'hatecrimesconsumer'  # topic name
 
 # Read CSV
-df = pd.read_csv('C:\Dirilis2025\PySpark Practice\HateCrimesAnalytics\Hate_Crimes_2017-2025.csv')
+df = pd.read_csv('YourCSVPath')
 df.fillna('', inplace=True)  # Replace NaNs
 
 # Produce each row as JSON
