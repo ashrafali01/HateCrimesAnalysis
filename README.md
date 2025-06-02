@@ -33,13 +33,6 @@ Clone the repository:
 
 git clone https://github.com/ashrafali01/HateCrimesAnalysis.git
 cd HateCrimesAnalysis
-(Optional) Create a virtual environment:
-
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
-
 
 pip install -r requirements.txt
 Set up Confluent Kafka (free tier or local) and configure producer topics.
@@ -48,15 +41,12 @@ Configure AWS credentials for S3 integration.
 
 🖥️ Usage
 Kafka Producer
-
 Run kafka_producer.py from VS Code to send data from the dataset to Kafka.
 
 PySpark Transformation
-
 Execute spark_transform.py to read from Kafka, process data, and write to AWS S3 in Parquet format.
 
 Visualization
-
 Develop visualizations using notebooks or BI tools on the Parquet data stored in S3 (planned).
 
 📊 Visualization
