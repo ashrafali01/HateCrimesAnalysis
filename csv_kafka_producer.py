@@ -29,3 +29,6 @@ for index, row in df.iterrows():
 
 producer.flush()
 print("All messages sent to Kafka.")
+
+
+#r
