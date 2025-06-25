@@ -92,3 +92,6 @@ query = df_transformed.writeStream \
     .start()
 
 query.awaitTermination()
+
+
+#not yet done. Under Construction
